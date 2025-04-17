@@ -10,7 +10,7 @@ import { useTheme } from "next-themes"
 import Chessboard from "./chessboard"
 import VisualizerPanel from "./visualizer-panel"
 import { NQueensSolver, type Step } from "@/lib/n-queens-solver"
-import { ModeToggle } from "./mode-toggle"
+// import { ModeToggle } from "./mode-toggle"
 import InfoSections from "./info-sections"
 import SiteFooter from "./site-footer"
 
@@ -94,7 +94,7 @@ export default function MainVisualizer() {
           </motion.h1>
 
           <motion.div initial={{ x: 20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 0.2 }}>
-            <ModeToggle />
+            {/* <ModeToggle /> */}
           </motion.div>
         </header>
 

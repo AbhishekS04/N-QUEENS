@@ -12,9 +12,9 @@ export default function SiteFooter() {
         <p className="text-sm text-gray-300">© 2025 N-Queens CSP Visualizer. Made by Team Devaura.</p>
 
         <div className="flex items-center gap-4">
-          <SocialIcon href="https://github.com" icon={<FaGithub />} label="GitHub" />
-          <SocialIcon href="https://linkedin.com" icon={<FaLinkedin />} label="LinkedIn" />
-          <SocialIcon href="https://instagram.com" icon={<FaInstagram />} label="Instagram" />
+          <SocialIcon href="https://github.com/AbhishekS04/N-QUEENS" icon={<FaGithub />} label="GitHub" />
+          {/* <SocialIcon href="https://linkedin.com" icon={<FaLinkedin />} label="LinkedIn" /> */}
+          {/* <SocialIcon href="https://instagram.com" icon={<FaInstagram />} label="Instagram" /> */}
         </div>
       </div>
     </footer>

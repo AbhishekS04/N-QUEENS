@@ -20,7 +20,7 @@ export default function Home() {
   }, [])
 
   return (
-    <ThemeProvider attribute="class" defaultTheme="dark">
+    // <ThemeProvider attribute="class" defaultTheme="dark">
       <main className="min-h-screen w-full bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 dark:from-slate-950 dark:via-purple-950 dark:to-slate-950 text-white">
         <AnimatePresence mode="wait">
           {isLoading ? (
@@ -32,7 +32,7 @@ export default function Home() {
           )}
         </AnimatePresence>
       </main>
-    </ThemeProvider>
+    // </ThemeProvider>
   )
 }
 
