@@ -155,6 +155,10 @@ function TechStackCard() {
             <li>Using constraints to eliminate invalid positions</li>
             <li>Backtracking when no valid positions remain</li>
             <li>Continuing until all queens are placed or all possibilities are exhausted</li>
+            <li>
+              Mathematically: For a queen at position <code>(r, c)</code>, no other queen should be in column{' '}
+              <code>c</code>, or diagonals <code>r - c</code> and <code>r + c</code>
+            </li>
           </ol>
         </div>
       </CardContent>
