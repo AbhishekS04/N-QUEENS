@@ -5,7 +5,7 @@ import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: 'N-Queens CSP Visualizer',
-  description: 'Created By Team Devaura',
+  description: 'Created By Team DevAura',
   generator: 'DevAura',
 };
 
