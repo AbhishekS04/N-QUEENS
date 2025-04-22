@@ -4,7 +4,6 @@ import { useState, useEffect } from "react"
 import { AnimatePresence } from "framer-motion"
 import WelcomeScreen from "@/components/welcome-screen"
 import MainVisualizer from "@/components/main-visualizer"
-import { ThemeProvider } from "@/components/theme-provider"
 
 export default function Home() {
   const [showWelcome, setShowWelcome] = useState(true)

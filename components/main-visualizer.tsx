@@ -85,7 +85,7 @@ export default function MainVisualizer() {
       <div className="max-w-7xl mx-auto">
         <header className="flex justify-between items-center mb-8">
           <motion.h1
-            className="text-2xl md:text-4xl font-serif font-bold"
+            className="text-2xl md:text-4xl font-serif font-bold items-center w-full text-center md:text-left"
             initial={{ x: -20, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.2 }}
