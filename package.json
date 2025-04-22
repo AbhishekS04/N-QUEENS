@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "DevAura",
+=======
+  "name": "Devaura",
+>>>>>>> d676200bc28c70c4d4f6d9a1f21c51129e633da4
   "version": "0.1.0",
   "private": true,
   "scripts": {
