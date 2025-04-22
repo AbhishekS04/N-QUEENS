@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { ThemeProvider } from 'next-themes';
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: 'N-Queens CSP Visualizer',
@@ -20,6 +21,7 @@ export default function RootLayout({
       </head>
       <body>
         <ThemeProvider attribute="class">{children}</ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );

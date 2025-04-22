@@ -9,7 +9,7 @@ export default function SiteFooter() {
   return (
     <footer className="w-full border-t border-white/10 bg-black/30 backdrop-blur-sm py-4 mt-8">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p className="text-sm text-gray-300">© 2025 N-Queens CSP Visualizer. Made by Team Devaura.</p>
+        <p className="text-sm text-gray-300">© 2025 N-Queens CSP Visualizer. Made by Team DevAura.</p>
 
         <div className="flex items-center gap-4">
           <SocialIcon href="https://github.com/AbhishekS04/N-QUEENS" icon={<FaGithub />} label="GitHub" />
